@@ -1,0 +1,180 @@
+2021-12-13 09:42:07.713 [main] INFO  Main - Start parse into src/main/Data: https://www.moscowmap.ru/metro.html#lines
+2021-12-13 09:42:08.630 [main] ERROR Main - src\main\Data\MoscowMetro.json: [java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87), java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103), java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108), java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236), java.base/java.nio.file.Files.newByteChannel(Files.java:380), java.base/java.nio.file.Files.createFile(Files.java:658), Main.parseHTML(Main.java:39), Main.main(Main.java:28)]
+2021-12-13 09:42:23.733 [main] INFO  Main - Start parse into src/main/Data: https://www.moscowmap.ru/metro.html#lines
+2021-12-13 09:42:24.619 [main] ERROR Main - src\main\Data\MoscowMetro.json: [java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87), java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103), java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108), java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236), java.base/java.nio.file.Files.newByteChannel(Files.java:380), java.base/java.nio.file.Files.createFile(Files.java:658), Main.parseHTML(Main.java:39), Main.main(Main.java:28)]
+2021-12-13 09:42:41.020 [main] INFO  Main - Start parse into src/main/Data: https://www.moscowmap.ru/metro.html#lines
+2021-12-13 09:43:58.563 [main] INFO  Main - Start parse into src/main/Data: https://www.moscowmap.ru/metro.html#lines
+2021-12-13 09:45:47.535 [main] ERROR Main - src\main\Data\MoscowMetro.json: [java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87), java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103), java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108), java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236), java.base/java.nio.file.Files.newByteChannel(Files.java:380), java.base/java.nio.file.Files.createFile(Files.java:658), Main.parseHTML(Main.java:39), Main.main(Main.java:28)]
+2021-12-13 09:46:05.677 [main] INFO  Main - Start parse into src/main/Data: https://www.moscowmap.ru/metro.html#lines
+2021-12-13 09:46:07.543 [main] INFO  MetroParser - Линия №1 - Сокольническая линия
+2021-12-13 09:46:07.543 [main] INFO  MetroParser - Линия №2 - Замоскворецкая линия
+2021-12-13 09:46:07.543 [main] INFO  MetroParser - Линия №3 - Арбатско-Покровская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №4 - Филевская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №5 - Кольцевая линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №6 - Калужско-Рижская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №7 - Таганско-Краснопресненская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №8 - Калининско-Солнцевская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №9 - Серпуховско-Тимирязевская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №10 - Люблинско-Дмитровская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №11 - Большая Кольцевая Линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №12 - Бутовская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №14 - Центральное Кольцо
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №15 - Некрасовская линия
+2021-12-13 09:46:07.559 [main] INFO  MetroParser - Линия №D1 - МЦД-1
+2021-12-13 09:46:07.581 [main] INFO  MetroParser - Линия №D2 - МЦД-2
+2021-12-13 09:46:07.581 [main] INFO  MetroParser - Lines are parsed
+2021-12-13 09:46:07.581 [main] INFO  MetroParser - Stations are parsed
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Лермонтовский проспект line Таганско-Краснопресненская линия with Косино line Некрасовская линия
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Петровско-Разумовская line Серпуховско-Тимирязевская линия with Петровско-Разумовская line Люблинско-Дмитровская линия
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Владыкино line Серпуховско-Тимирязевская линия with Владыкино line Центральное Кольцо
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Черкизовская line Сокольническая линия with Локомотив line Центральное Кольцо
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Проспект Мира line Калужско-Рижская линия with Проспект Мира line Кольцевая линия
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Комсомольская line Сокольническая линия with Комсомольская line Кольцевая линия
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Кузнецкий мост line Таганско-Краснопресненская линия with Лубянка line Сокольническая линия
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Китай-город line Калужско-Рижская линия with Китай-город line Таганско-Краснопресненская линия
+2021-12-13 09:46:07.596 [main] INFO  MetroParser - Add connection: Театральная line Замоскворецкая линия with Площадь Революции line Арбатско-Покровская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Охотный ряд line Сокольническая линия with Театральная line Замоскворецкая линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Краснопресненская line Кольцевая линия with Баррикадная line Таганско-Краснопресненская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Белорусская line Замоскворецкая линия with Белорусская line Кольцевая линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Динамо line Замоскворецкая линия with Петровский парк line Большая Кольцевая Линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Полежаевская line Таганско-Краснопресненская линия with Хорошёвская line Большая Кольцевая Линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Шелепиха line Центральное Кольцо with Шелепиха line Большая Кольцевая Линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Международная line Филевская линия with Деловой центр line Центральное Кольцо
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Кутузовская line Филевская линия with Кутузовская line Центральное Кольцо
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Парк Победы line Арбатско-Покровская линия with Парк Победы line Калининско-Солнцевская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Каховская line Большая Кольцевая Линия with Севастопольская line Серпуховско-Тимирязевская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Цветной бульвар line Серпуховско-Тимирязевская линия with Трубная line Люблинско-Дмитровская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Зябликово line Люблинско-Дмитровская линия with Красногвардейская line Замоскворецкая линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Новоясеневская line Калужско-Рижская линия with Битцевский парк line Бутовская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Ленинский проспект line Калужско-Рижская линия with Площадь Гагарина line Центральное Кольцо
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Римская line Люблинско-Дмитровская линия with Площадь Ильича line Калининско-Солнцевская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Пролетарская line Таганско-Краснопресненская линия with Крестьянская застава line Люблинско-Дмитровская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Павелецкая line Замоскворецкая линия with Павелецкая line Кольцевая линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Парк Культуры line Сокольническая линия with Парк Культуры line Кольцевая линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Октябрьская line Кольцевая линия with Октябрьская line Калужско-Рижская линия
+2021-12-13 09:46:07.612 [main] INFO  MetroParser - Add connection: Добрынинская line Кольцевая линия with Серпуховская line Серпуховско-Тимирязевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Менделеевская line Серпуховско-Тимирязевская линия with Новослободская line Кольцевая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Улица Старокачаловская line Бутовская линия with Бульвар Дмитрия Донского line Серпуховско-Тимирязевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Новокузнецкая line Замоскворецкая линия with Третьяковская line Калининско-Солнцевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Третьяковская line Калининско-Солнцевская линия with Третьяковская line Калужско-Рижская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Третьяковская line Калужско-Рижская линия with Новокузнецкая line Замоскворецкая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Боровицкая line Серпуховско-Тимирязевская линия with Арбатская line Арбатско-Покровская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Библиотека имени Ленина line Сокольническая линия with Боровицкая line Серпуховско-Тимирязевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Арбатская line Арбатско-Покровская линия with Библиотека имени Ленина line Сокольническая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Александровский сад line Филевская линия with Библиотека имени Ленина line Сокольническая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Арбатская line Арбатско-Покровская линия with Александровский сад line Филевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Киевская line Арбатско-Покровская линия with Киевская line Филевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Киевская line Кольцевая линия with Киевская line Арбатско-Покровская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Киевская line Кольцевая линия with Киевская line Филевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Таганская line Кольцевая линия with Таганская line Таганско-Краснопресненская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Таганская line Таганско-Краснопресненская линия with Марксистская line Калининско-Солнцевская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Марксистская line Калининско-Солнцевская линия with Таганская line Кольцевая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Курская line Арбатско-Покровская линия with Курская line Кольцевая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Курская line Кольцевая линия with Курская line Арбатско-Покровская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Чкаловская line Люблинско-Дмитровская линия with Курская line Арбатско-Покровская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Сретенский бульвар line Люблинско-Дмитровская линия with Чистые пруды line Сокольническая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Чистые пруды line Сокольническая линия with Тургеневская line Калужско-Рижская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Тургеневская line Калужско-Рижская линия with Сретенский бульвар line Люблинско-Дмитровская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Тверская line Замоскворецкая линия with Пушкинская line Таганско-Краснопресненская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Чеховская line Серпуховско-Тимирязевская линия with Тверская line Замоскворецкая линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Чеховская line Серпуховско-Тимирязевская линия with Пушкинская line Таганско-Краснопресненская линия
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Славянский бульвар line Арбатско-Покровская линия with Славянский бульвар line МЦД-1
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Нижегородская line Некрасовская линия with Нижегородская line Центральное Кольцо
+2021-12-13 09:46:07.628 [main] INFO  MetroParser - Add connection: Авиамоторная line Калининско-Солнцевская линия with Авиамоторная line Некрасовская линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Волоколамская line МЦД-2 with Волоколамская line Арбатско-Покровская линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Выставочная line Филевская линия with Деловой центр line Калининско-Солнцевская линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Деловой центр line Калининско-Солнцевская линия with Деловой центр line Большая Кольцевая Линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Деловой центр line Большая Кольцевая Линия with Выставочная line Филевская линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Проспект Вернадского line Сокольническая линия with Проспект Вернадского line Большая Кольцевая Линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Воронцовская line Большая Кольцевая Линия with Калужская line Калужско-Рижская линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Кунцевская line Арбатско-Покровская линия with Кунцевская line Филевская линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Кунцевская line Арбатско-Покровская линия with Кунцевская line Большая Кольцевая Линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Кунцевская line Филевская линия with Кунцевская line Большая Кольцевая Линия
+2021-12-13 09:46:07.643 [main] INFO  MetroParser - Add connection: Мичуринский проспект line Калининско-Солнцевская линия with Мичуринский проспект line Большая Кольцевая Линия
+2021-12-13 09:47:28.354 [main] INFO  Main - Start parse into src/main/Data: https://www.moscowmap.ru/metro.html#lines
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №1 - Сокольническая линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №2 - Замоскворецкая линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №3 - Арбатско-Покровская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №4 - Филевская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №5 - Кольцевая линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №6 - Калужско-Рижская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №7 - Таганско-Краснопресненская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №8 - Калининско-Солнцевская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №9 - Серпуховско-Тимирязевская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №10 - Люблинско-Дмитровская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №11 - Большая Кольцевая Линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №12 - Бутовская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №14 - Центральное Кольцо
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №15 - Некрасовская линия
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №D1 - МЦД-1
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Линия №D2 - МЦД-2
+2021-12-13 09:47:29.225 [main] INFO  MetroParser - Lines are parsed
+2021-12-13 09:47:29.240 [main] INFO  MetroParser - Stations are parsed
+2021-12-13 09:47:29.240 [main] INFO  MetroParser - Add connection: Лермонтовский проспект line Таганско-Краснопресненская линия with Косино line Некрасовская линия
+2021-12-13 09:47:29.240 [main] INFO  MetroParser - Add connection: Петровско-Разумовская line Серпуховско-Тимирязевская линия with Петровско-Разумовская line Люблинско-Дмитровская линия
+2021-12-13 09:47:29.240 [main] INFO  MetroParser - Add connection: Владыкино line Серпуховско-Тимирязевская линия with Владыкино line Центральное Кольцо
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Черкизовская line Сокольническая линия with Локомотив line Центральное Кольцо
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Проспект Мира line Калужско-Рижская линия with Проспект Мира line Кольцевая линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Комсомольская line Сокольническая линия with Комсомольская line Кольцевая линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Кузнецкий мост line Таганско-Краснопресненская линия with Лубянка line Сокольническая линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Китай-город line Калужско-Рижская линия with Китай-город line Таганско-Краснопресненская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Театральная line Замоскворецкая линия with Площадь Революции line Арбатско-Покровская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Охотный ряд line Сокольническая линия with Театральная line Замоскворецкая линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Краснопресненская line Кольцевая линия with Баррикадная line Таганско-Краснопресненская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Белорусская line Замоскворецкая линия with Белорусская line Кольцевая линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Динамо line Замоскворецкая линия with Петровский парк line Большая Кольцевая Линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Полежаевская line Таганско-Краснопресненская линия with Хорошёвская line Большая Кольцевая Линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Шелепиха line Центральное Кольцо with Шелепиха line Большая Кольцевая Линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Международная line Филевская линия with Деловой центр line Центральное Кольцо
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Кутузовская line Филевская линия with Кутузовская line Центральное Кольцо
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Парк Победы line Арбатско-Покровская линия with Парк Победы line Калининско-Солнцевская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Каховская line Большая Кольцевая Линия with Севастопольская line Серпуховско-Тимирязевская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Цветной бульвар line Серпуховско-Тимирязевская линия with Трубная line Люблинско-Дмитровская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Зябликово line Люблинско-Дмитровская линия with Красногвардейская line Замоскворецкая линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Новоясеневская line Калужско-Рижская линия with Битцевский парк line Бутовская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Ленинский проспект line Калужско-Рижская линия with Площадь Гагарина line Центральное Кольцо
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Римская line Люблинско-Дмитровская линия with Площадь Ильича line Калининско-Солнцевская линия
+2021-12-13 09:47:29.256 [main] INFO  MetroParser - Add connection: Пролетарская line Таганско-Краснопресненская линия with Крестьянская застава line Люблинско-Дмитровская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Павелецкая line Замоскворецкая линия with Павелецкая line Кольцевая линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Парк Культуры line Сокольническая линия with Парк Культуры line Кольцевая линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Октябрьская line Кольцевая линия with Октябрьская line Калужско-Рижская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Добрынинская line Кольцевая линия with Серпуховская line Серпуховско-Тимирязевская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Менделеевская line Серпуховско-Тимирязевская линия with Новослободская line Кольцевая линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Улица Старокачаловская line Бутовская линия with Бульвар Дмитрия Донского line Серпуховско-Тимирязевская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Новокузнецкая line Замоскворецкая линия with Третьяковская line Калининско-Солнцевская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Третьяковская line Калининско-Солнцевская линия with Третьяковская line Калужско-Рижская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Третьяковская line Калужско-Рижская линия with Новокузнецкая line Замоскворецкая линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Боровицкая line Серпуховско-Тимирязевская линия with Арбатская line Арбатско-Покровская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Библиотека имени Ленина line Сокольническая линия with Боровицкая line Серпуховско-Тимирязевская линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Арбатская line Арбатско-Покровская линия with Библиотека имени Ленина line Сокольническая линия
+2021-12-13 09:47:29.272 [main] INFO  MetroParser - Add connection: Александровский сад line Филевская линия with Библиотека имени Ленина line Сокольническая линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Арбатская line Арбатско-Покровская линия with Александровский сад line Филевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Киевская line Арбатско-Покровская линия with Киевская line Филевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Киевская line Кольцевая линия with Киевская line Арбатско-Покровская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Киевская line Кольцевая линия with Киевская line Филевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Таганская line Кольцевая линия with Таганская line Таганско-Краснопресненская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Таганская line Таганско-Краснопресненская линия with Марксистская line Калининско-Солнцевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Марксистская line Калининско-Солнцевская линия with Таганская line Кольцевая линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Курская line Арбатско-Покровская линия with Курская line Кольцевая линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Курская line Кольцевая линия with Курская line Арбатско-Покровская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Чкаловская line Люблинско-Дмитровская линия with Курская line Арбатско-Покровская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Сретенский бульвар line Люблинско-Дмитровская линия with Чистые пруды line Сокольническая линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Чистые пруды line Сокольническая линия with Тургеневская line Калужско-Рижская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Тургеневская line Калужско-Рижская линия with Сретенский бульвар line Люблинско-Дмитровская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Тверская line Замоскворецкая линия with Пушкинская line Таганско-Краснопресненская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Чеховская line Серпуховско-Тимирязевская линия with Тверская line Замоскворецкая линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Чеховская line Серпуховско-Тимирязевская линия with Пушкинская line Таганско-Краснопресненская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Славянский бульвар line Арбатско-Покровская линия with Славянский бульвар line МЦД-1
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Нижегородская line Некрасовская линия with Нижегородская line Центральное Кольцо
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Авиамоторная line Калининско-Солнцевская линия with Авиамоторная line Некрасовская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Волоколамская line МЦД-2 with Волоколамская line Арбатско-Покровская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Выставочная line Филевская линия with Деловой центр line Калининско-Солнцевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Деловой центр line Калининско-Солнцевская линия with Деловой центр line Большая Кольцевая Линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Деловой центр line Большая Кольцевая Линия with Выставочная line Филевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Проспект Вернадского line Сокольническая линия with Проспект Вернадского line Большая Кольцевая Линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Воронцовская line Большая Кольцевая Линия with Калужская line Калужско-Рижская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Кунцевская line Арбатско-Покровская линия with Кунцевская line Филевская линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Кунцевская line Арбатско-Покровская линия with Кунцевская line Большая Кольцевая Линия
+2021-12-13 09:47:29.278 [main] INFO  MetroParser - Add connection: Кунцевская line Филевская линия with Кунцевская line Большая Кольцевая Линия
+2021-12-13 09:47:29.294 [main] INFO  MetroParser - Add connection: Мичуринский проспект line Калининско-Солнцевская линия with Мичуринский проспект line Большая Кольцевая Линия
+2021-12-13 09:47:29.294 [main] INFO  Main - End parse to file MoscowMetro.json

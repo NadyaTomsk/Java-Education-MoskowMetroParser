@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <File name="actions" fileName="logs/actions.log" immediateFlush="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="exceptions" fileName="logs/exceptions.log" immediateFlush="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </appenders>
+
+    <loggers>
+        <root level="debug">
+        </root>
+        <logger name="Main" level="ALL" additivity="true">
+            <appender-ref ref="actions" level="info"/>
+            <appender-ref ref="exceptions" level="error"/>
+            <appender-ref ref="Console" level="ALL" />
+        </logger>
+        <logger name="MetroParser" level="ALL" additivity="true">
+            <appender-ref ref="exceptions" level="error"/>
+            <appender-ref ref="actions" level="info"/>
+            <appender-ref ref="Console" level="ALL" />
+        </logger>
+        <logger name="Station" level="ALL" additivity="true">
+            <appender-ref ref="exceptions" level="error"/>
+            <appender-ref ref="actions" level="info"/>
+            <appender-ref ref="Console" level="ALL" />
+        </logger>
+    </loggers>
+</configuration>
